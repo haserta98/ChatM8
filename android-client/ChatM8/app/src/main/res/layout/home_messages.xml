@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/adapter_message"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/baloncuk_sar_ust">
+
+
+        <TextView
+            android:id="@+id/adapter_message_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="2dp"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/adapter_message_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="63dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <!--<TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/adapter_message_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="-118dp"
+            android:text="TextView"
+            android:textSize="8sp" />
+        -->
+    </RelativeLayout>
+</LinearLayout>

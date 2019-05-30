@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChatM8</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="nav_communicate">İletişim</string>
+    <string name="nav_gallery">Galeri</string>
+    <string name="nav_header_desc">Navigasyon Başlığı</string>
+    <string name="nav_message">Mesajlar</string>
+    <string name="nav_pic_video">Resim/Video</string>
+    <string name="nav_share">Paylaş</string>
+    <string name="nav_friends">Arkadaşlar</string>
+    <string name="navigation_drawer_close">Kapat</string>
+    <string name="navigation_drawer_open">Aç</string>
+    <string name="title_activity_home_page">Chat M8</string>
+    <string name="nav_search_group">Grup Ara</string>
+    <string name="register">Kayıt</string>
+    <string name="login">Giriş</string>
+    <string name="password">Şifre</string>
+    <string name="email">E-Posta</string>
+    <string name="accountid">Kullanıcı ID</string>
+    <string name="name">İsim</string>
+    <string name="repeatPassword">Şifrenizi tekrar giriniz</string>
+    <string name="footer_school">İstanbul Sabahattin Zaim Üniversitesi</string>
+    <string name="footer_created_by">hasangzm tarafından yapıldı.</string>
+    <string name="message_delete">Mesajları Sil</string>
+
+    <string name="search">Ara</string>
+    <string name="addFriend">Ekle</string>
+    <string name="friendRequestAccept">Kabul</string>
+    <string name="friendRequestDecline">Reddet</string>
+    <string name="exit">Çıkış</string>
+    <string-array name="group_type">
+        <item>Herkese Açık</item>
+        <item>Sadece Davet</item>
+    </string-array>
+
+</resources>

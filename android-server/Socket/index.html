@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.io Eğitim</title>
+  </head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+      #messages{
+          height: 300px;
+      }
+      .container{
+          margin-top:10px;
+      }
+      #chat-coming-message{
+
+      }
+      #chat-sended-message{
+
+      }
+  </style>
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                    <h3>Room</h3>
+                <div id="rooms">
+                    
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <input type="text" class="form-control" placeholder="Name" id="name">
+                <br>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <input type="text" class="form-control" placeholder="Room" id="room">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-lg-5">
+                        <input type="button" class="btn btn-danger" value="Odaya giriş yap yada Oluştur!" id="join">
+                        
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-title" id="messages">
+
+                    </div>
+                </div>
+                <br>
+                <textarea  class="form-control" id="message_text" ></textarea>
+                <br>
+                <input type="button" class="btn btn-success" value="Gönder" id="send">
+                <input type="button" class="btn btn-warning" value="Mesajları Sil" id="deleteAllMessages">
+
+            </div>        
+        </div>     
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="./client.js"></script>
+  </body>
+</html>

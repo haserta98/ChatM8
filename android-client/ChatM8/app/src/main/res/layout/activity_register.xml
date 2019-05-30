@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    tools:layout_editor_absoluteY="81dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="573dp"
+            android:foregroundGravity="center_vertical"
+            app:srcCompat="@drawable/logo_turuncu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/registerAccountId"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="0dp"
+                android:alpha="1"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/account_box_black_24dp"
+                android:ems="10"
+                android:hint="@string/accountid"
+                android:scrollHorizontally="false"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/registerName"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="0dp"
+                android:alpha="1"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/account_box_black_24dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:scrollHorizontally="false"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="0dp"
+                android:alpha="1"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/account_box_black_24dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:scrollHorizontally="false"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="115dp" />
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:alpha="1"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/lock_outline_black_24dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:scrollHorizontally="false"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/registerRepeatPassword"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:alpha="1"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/lock_outline_black_24dp"
+                android:ems="10"
+                android:hint="@string/repeatPassword"
+                android:inputType="textPassword"
+                android:scrollHorizontally="false"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="115dp" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="270dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="46dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rounded"
+                android:drawableStart="@drawable/ic_arrow_forward_black_24dp"
+                android:onClick="PostRequest"
+                android:text="@string/register" />
+
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="75dp"
+                android:text="İstanbul Sabahattin Zaim Üniversitesi" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="120dp"
+                android:layout_marginBottom="20dp"
+                android:text="Designed by hasangzm" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

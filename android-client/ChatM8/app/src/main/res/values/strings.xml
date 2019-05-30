@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ChatM8</string>
+    <string name="title_activity_home_page">Chat M8</string>
+
+
+    <!-- NAV MENU -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_message">Messages</string>
+    <string name="nav_pic_video">Picture/Video</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_friends">Friends</string>
+    <string name="nav_search_group">Search Group</string>
+
+    <!-- HOME PAGE  -->
+    <string name="footer_school">İstanbul Sabahattin Zaim University</string>
+    <string name="footer_created_by">Designed by hasangzm</string>
+
+    <!-- LOGIN & REGISTER PAGE -->
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">E-Mail</string>
+    <string name="accountid">Account ID</string>
+    <string name="repeatPassword">Repeat Password</string>
+    <string name="message_delete">Delete all messages</string>
+
+    <string name="search">Search</string>
+    <string name="addFriend">Add</string>
+
+    <string name="friendRequestAccept">Accept</string>
+    <string name="friendRequestDecline">Decline</string>
+    <string name="exit">Exit</string>
+
+    <string-array name="group_type">
+        <item>Public</item>
+        <item>Only Invited</item>
+    </string-array>
+
+</resources>
+
