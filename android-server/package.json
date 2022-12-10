@@ -748,7 +748,7 @@
       "resolved": "https://registry.npmjs.org/expand-brackets/-/expand-brackets-2.1.4.tgz",
       "version": "2.1.4"
     },
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "extend-shallow": {
       "dependencies": {
         "is-extendable": {
